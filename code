@@ -22,7 +22,6 @@ char keys[ROWS][COLS] = {
   {'*', '0', '#', 'D'}
 };
 
-// Define the Arduino pins connected to the keypad rows and columns
 byte rowPins[ROWS] = {9, 8, 7, 6}; // Connect to the row pins of the keypad
 byte colPins[COLS] = {5, 4, 3, 2}; // Connect to the column pins of the keypad
 
